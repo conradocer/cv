@@ -1,0 +1,121 @@
+body {
+  background-color: #93B5C6;
+  font-family: 'Noto Serif Display', serif;
+  margin: 0;
+  text-align: center;
+}
+
+h2 {
+  margin: 0;
+  font-weight: 800;
+  color: #577889;
+  text-align: center;
+}
+
+h3 {
+  padding-bottom: 10px;
+  color: #FFE9E9;
+}
+
+hr {
+  border: dotted;
+  border-width: 5px 0 0 0;
+  width: 5%;
+  margin: 30px auto 10px auto;
+}
+
+a {
+  font-family: 'Noto Serif Display', serif;
+  color: #577889;
+}
+
+p {
+  display: inline-block;
+  margin: 7px;
+}
+
+.labels-p {
+  width: 100px;
+  margin: 0;
+}
+
+form {
+  text-align: center;
+  border-radius: 30px;
+  resize: vertical;
+}
+
+input[type=text] {
+  border: 1px solid;
+  border-radius: 7px;
+  width: 20%;
+  padding: 2px 4px;
+  border-color: #577889;
+  vertical-align: text-top;
+}
+
+input {
+  margin-top: 12px;
+}
+
+input[type=email] {
+  border: 1px solid;
+  border-radius: 7px;
+  width: 20%;
+  padding: 2px 4px;
+  border-color: #577889;
+  display: inline-block
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  vertical-align: top;
+  width: 150px;
+  text-align: left;
+}
+
+.message-text {
+  border: 1px solid;
+  border-radius: 7px;
+  width: 20%;
+  height: 60px;
+  padding: 2px 4px;
+  margin: 1px 0;
+  border-color: #577889;
+  margin-top: 13px;
+}
+
+.top-div {
+  background-color: #FFE3E3;
+  margin: 0;
+  padding: 80px 30px 30px 30px;
+  text-align: justify;
+  color: #577889;
+}
+
+.submit-button {
+  width: 7%;
+  border: 1px solid;
+  padding: 2px;
+  border-color: #FFE3E3;
+  border-radius: 5px;
+  font-family: 'Noto Serif Display', serif;
+  font-weight: bold;
+  color: #577889;
+  background-color: #FFE9E9;
+}
+
+.submit-button:hover {
+  background-color: #B1D3E5;
+  border-color: #577889;
+}
+
+.top-div-text {
+  margin-left: 41.5%;
+}
+
+.bottom-div {
+  padding: 10px;
+  color: #FFE9E9;
+}
